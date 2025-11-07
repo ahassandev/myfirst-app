@@ -2,7 +2,7 @@ import React from 'react'
 import myimage from '../assets/Images/myimage.png';
 function Navbar() {
   return (
-    <nav className='flex justify-between items-center mx-10' >
+    <nav className='flex justify-between items-center px-10 sticky top-0 z-50 bg-white shadow-md'>
       <div className='flex items-center gap-3 mt-4'>
         <div className='relative inline-block'>
       <img src={myimage} className='w-14 h-14 rounded-full object-cover cursor-pointer' alt=""/>
@@ -17,7 +17,7 @@ function Navbar() {
   "></span>
       </div>
       <h1 className='text-xl font-bold cursor-pointer'>Ahmad Hassan</h1>
-      </div>
+      </div>  
 
       <ul className='flex gap-10 mt-2'>
         <li><a className='hover:text-pink-600' href="#">Home</a></li> 
