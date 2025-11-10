@@ -6,13 +6,13 @@ import { FaWhatsapp } from "react-icons/fa";
 const Contact = () => {
   return (
     <div>
-      <section className="mx-auto py-16 px-8">
+      <section className="mx-auto container py-16 px-16">
         <p className="text-red-600 font-semibold text-center">CONTACT</p>
         <h1 className="text-6xl font-bold text-gray-800 my-3 text-center">
           Contact With Me
         </h1>
 
-        <div className="mt-10">
+        <div className="mt-10 flex justify-center">
           <div className="max-w-md bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden ">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
@@ -24,16 +24,19 @@ const Contact = () => {
             <h2 className="ml-8 mt-7 text-3xl font-bold">Nevine Acotanza</h2>
             <p className="ml-8 mt-4 text-md">Chief Operating Officer</p>
 
-            <p className="mx-8 mt-5 text-xl">
+            <p className="mx-8 mt-5 text-xl text-gray-600">
               I am available for freelance work. Connect with me via and call in
               to my account.
             </p>
 
-            <p className="ml-8 mt-5">
-              Phone: <a href="">+012 345 678 90</a>{" "}
+            <p className="ml-8 mt-5 text-gray-600">
+              Phone: <a href="">+012 345 678 90</a>
             </p>
-            <p className="ml-8 mt-1">
-              Email: <a className="hover:underlin hover:text-red-500" href="">admin@example.com</a>{" "}
+            <p className="ml-8 mt-1 text-gray-600">
+              Email:{" "}
+              <a className="hover:underlin hover:text-red-500" href="">
+                admin@example.com
+              </a>{" "}
             </p>
 
             <p className="ml-8 mt-6">FIND WITH ME</p>
@@ -59,6 +62,79 @@ const Contact = () => {
               </a>
             </div>
           </div>
+
+          <form className="max-w- mx-auto p-10 bg-gray-200 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden">
+            <div className="flex justify-between gap-3">
+              <div>
+                <label
+                  htmlFor="input"
+                  className="block mb-3 text-sm font-medium text-gray-900"
+                >
+                  YOUR NAME
+                </label>
+                <input
+                  type="text"
+                  className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-lg rounded-lg py-3 px-10 focus:outline-none focus:border-red-600 "
+                />
+              </div>
+
+              <div>
+                <label
+                  htmlFor="input"
+                  className="block mb-3 text-sm font-medium text-gray-900"
+                >
+                  PHONE NUMBER
+                </label>
+                <input
+                  type="text"
+                  className="bg-gray-50 border-2 border-gray-300 text-gray-900 px-16 py-4 text-md  rounded-lg focus:outline-none focus:border-red-600"
+                />
+              </div>
+            </div>
+
+            <div className="my-6">
+              <label
+                htmlFor="input"
+                className="block mb-3 text-sm font-medium text-gray-900"
+              >
+                SUBJECT
+              </label>
+              <input
+                type="text"
+                className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-xl rounded-lg w-2xl py-3 px-1 focus:outline-none focus:border-red-600"
+              />
+            </div>
+
+            <div className="my-6">
+              <label
+                htmlFor="input"
+                className="block mb-3 text-sm font-medium text-gray-900"
+              >
+                SUBJECT
+              </label>
+              <input
+                type="text"
+                className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-xl rounded-lg w-2xl py-3 px-1 focus:outline-none focus:border-red-600"
+              />
+            </div>
+
+            <div>
+              <label
+                htmlFor="input"
+                className="block mb-3 text-sm font-medium text-gray-900"
+              >
+                SUBJECT
+              </label>
+              <textarea
+                rows="7"
+                className="w-full border-2 border-gray-300 bg-white p-3 rounded-lg resize-none focus:outline-none focus:border-red-600"
+              ></textarea>
+            </div>
+
+            <button className="bg-gray-50 mt-8 shadow-[0_0_20px_rgba(0,0,0,0.3)] text-gray-600 w-full p-4 rounded-lg text-center hover:bg-linear-to-br hover:from-blue-400 hover:to-pink-500 hover:text-white hover:-translate-y-1 transition-all duration-400 cursor-pointer">
+              SEND MESSAGE
+            </button>
+          </form>
         </div>
       </section>
     </div>
