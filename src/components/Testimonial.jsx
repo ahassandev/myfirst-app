@@ -3,7 +3,7 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div>
-      <section className="container px-16 mx-auto pb-24">
+      <section data-aos="fade-right" data-aos-delay="500" className="container px-16 mx-auto pb-24">
         <p className="text-red-600 text-center">WHAT CLIENTS SAY</p>
         <h1 className="text-7xl font-bold text-gray-800 my-3 text-center">
           Testimonial

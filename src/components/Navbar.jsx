@@ -3,9 +3,8 @@ import myimage from '../assets/Images/myimage.png';
 function Navbar() {
   return (
     <nav className='flex justify-between items-center px-16 py-2 sticky top-0 z-50 bg-white shadow-md'>
-      <div className='container'>
       <div className='flex items-center gap-3 mt-4'>
-        <div className='relative inline-block'>
+        <div className='relative inline-block cursor-pointer'>
       <img src={myimage} className='w-14 h-14 rounded-full object-cover cursor-pointer' alt=""/>
       <span className="
     absolute inset-0
@@ -29,7 +28,6 @@ function Navbar() {
       </ul>
 
       <button className='text-pink-500 text-sm font-semibold  py-3.5 px-5 shadow-lg cursor-pointer mt-2 rounded-md bg-100 hover:bg-linear-to-br hover:from-blue-400 hover:to-pink-500 hover:text-white hover:-translate-y-1 transition-all duration-300' >BUY NOW</button>
-      </div>
     </nav>
   )
 }
