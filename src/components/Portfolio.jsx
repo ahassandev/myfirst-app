@@ -14,7 +14,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
 
 
-          <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+          <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-right" data-aous-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
@@ -34,7 +34,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-down" data-aous-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
@@ -54,7 +54,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+          <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-left" data-aous-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
@@ -74,7 +74,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+          <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-right" data-aous-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
@@ -94,7 +94,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+          <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-up" data-aous-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
@@ -114,7 +114,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-left" data-aous-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"

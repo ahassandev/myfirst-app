@@ -1,5 +1,7 @@
 import React from 'react'
 import myimage from '../assets/Images/myimage.png';
+
+
 function Navbar() {
   return (
     <nav className='flex justify-between items-center px-16 py-2 sticky top-0 z-50 bg-white shadow-md'>
@@ -7,14 +9,14 @@ function Navbar() {
         <div className='relative inline-block cursor-pointer'>
       <img src={myimage} className='w-14 h-14 rounded-full object-cover cursor-pointer' alt=""/>
       <span className="
-    absolute inset-0
-    rounded-full
-    border-2
-    border-gray-300
-    scale-[1.15]
-    transition-all duration-300
-    hover:border-pink-500
-  "></span>
+            absolute inset-0
+            rounded-full
+            border-2
+          border-gray-300
+           scale-[1.15]
+           transition-all duration-300
+         hover:border-pink-500">
+         </span>
       </div>
       <h1 className='text-xl font-bold cursor-pointer'>Ahmad Hassan</h1>
       </div>  
