@@ -12,7 +12,7 @@ const Contact = () => {
           Contact With Me
         </h1>
 
-        <div className="mt-10 flex justify-center">
+        <div className="mt-10 flex justify-center gap-8">
           <div className="max-w-md bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden ">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
@@ -30,12 +30,21 @@ const Contact = () => {
             </p>
 
             <p className="ml-8 mt-5 text-gray-600">
-              Phone: <a href="">+012 345 678 90</a>
+              Phone:
+              <a
+                href="#"
+                className="relative inline-block group text-gray-600 ml-1 hover:text-red-600"
+              >
+                +012 345 678 90
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+              </a>
             </p>
+
             <p className="ml-8 mt-1 text-gray-600">
               Email:{" "}
-              <a className="hover:underlin hover:text-red-500" href="">
+              <a className="relative inline-block group text-gray-600 ml-1 hover:text-red-500" href="">
                 admin@example.com
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
               </a>{" "}
             </p>
 
@@ -63,18 +72,17 @@ const Contact = () => {
             </div>
           </div>
 
-          <form className="max-w- mx-auto p-10 bg-gray-200 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden">
+          <form className="max-w-2xl mx-auto p-10 bg-gray-200 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden">
             <div className="flex justify-between gap-3">
               <div>
                 <label
                   htmlFor="input"
-                  className="block mb-3 text-sm font-medium text-gray-900"
-                >
+                  className="block mb-3 text-sm font-medium text-gray-900">
                   YOUR NAME
                 </label>
                 <input
                   type="text"
-                  className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-lg rounded-lg py-3 px-10 focus:outline-none focus:border-red-600 "
+                  className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-lg rounded-lg py-3 px-10 focus:outline-none focus:border-red-600"
                 />
               </div>
 
@@ -87,7 +95,7 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
-                  className="bg-gray-50 border-2 border-gray-300 text-gray-900 px-16 py-4 text-md  rounded-lg focus:outline-none focus:border-red-600"
+                  className="bg-gray-50 border-2 border-gray-300 text-gray-900 px-10 py-3 text-lg rounded-lg focus:outline-none focus:border-red-600"
                 />
               </div>
             </div>
@@ -101,7 +109,7 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-xl rounded-lg w-2xl py-3 px-1 focus:outline-none focus:border-red-600"
+                className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-xl rounded-lg w-full py-3 px-1 focus:outline-none focus:border-red-600"
               />
             </div>
 
@@ -114,7 +122,7 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-xl rounded-lg w-2xl py-3 px-1 focus:outline-none focus:border-red-600"
+                className="bg-gray-50 border-2 border-gray-300 text-gray-900 text-xl rounded-lg w-full py-3 px-1 focus:outline-none focus:border-red-600"
               />
             </div>
 
@@ -136,6 +144,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
+        <hr className="border-b border-gray-300 mt-32" />
       </section>
     </div>
   );
