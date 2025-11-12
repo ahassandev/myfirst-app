@@ -7,7 +7,7 @@ const Portfolio = () => {
         <p className="text-red-600 text-center">
           Visit my portfolio and keep your feedback
         </p>
-        <h1 className="text-7xl font-bold text-gray-800 my-3 text-center">
+        <h1 className="text-5xl md:text-5xl lg:text-7xl font-bold text-gray-800 my-3 text-center">
           My Portfolio
         </h1>
 

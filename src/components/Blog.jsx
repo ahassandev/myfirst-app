@@ -7,7 +7,7 @@ const Blog = () => {
          <p className="text-red-700 text-center text-md">
           VISIT MY BLOG AND KEEP YOUR FEEDBACK
          </p>
-        <h1 className="text-7xl font-bold text-gray-800 my-3 text-center">
+        <h1 className="text-5xl md:text-5xl lg:text-7xl font-bold text-gray-800 my-3 text-center">
           My Blog
         </h1>
 

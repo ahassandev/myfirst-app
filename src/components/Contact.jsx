@@ -8,7 +8,7 @@ const Contact = () => {
     <div>
       <section className="mx-auto container py-16 px-16">
         <p className="text-red-600 font-semibold text-center">CONTACT</p>
-        <h1 className="text-6xl font-bold text-gray-800 my-3 text-center">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 my-3 text-center">
           Contact With Me
         </h1>
 

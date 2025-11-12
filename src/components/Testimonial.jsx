@@ -5,11 +5,11 @@ const Testimonial = () => {
     <div>
       <section className="container px-16 mx-auto pb-24">
         <p className="text-red-600 text-center" data-aos="down" data-aos-delay="400">WHAT CLIENTS SAY</p>
-        <h1 className="text-7xl font-bold text-gray-800 my-3 text-center" data-aos="fade-down" data-aos-delay="400">
+        <h1 className="text-5xl md:text-5xl lg:text-7xl font-bold text-gray-800 my-3 text-center" data-aos="fade-down" data-aos-delay="400">
           Testimonial
         </h1>
 
-       <div className="flex justify-between mt-14" data-aos="fade-right" data-aos-delay="400">
+       <div className="inline-block md:inline-block lg:flex justify-between mt-14" data-aos="fade-right" data-aos-delay="400">
           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
