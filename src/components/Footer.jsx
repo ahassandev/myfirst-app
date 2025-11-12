@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <section className="container mx-auto p-16">
-        <div className="flex justify-between py-8">
+        <div className="justify-between py-8 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div>
             <div className="flex items-center gap-3 mt-4">
               <div className="relative inline-block">
@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div>
+          <div className="mt-3 md:mt-0 lg:mt-0">
             <ul className="space-y-2">
                 <p className="text-red-500 mb-4 text-xl">QUICK LINK</p>
                 <li><a href="#" className="text-xl relative inline-block group hover:text-red-500">About <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span></a></li>
@@ -64,7 +64,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className="mt-3 md:mt-2 lg:mt-0">
             <ul className="space-y-2">
                 <p className="text-red-500 mb-4 text-xl">RESOURCES</p>
                 <li><a href="#" className="text-xl relative inline-block group hover:text-red-500">Authentication <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span></a></li>
@@ -75,7 +75,7 @@ const Footer = () => {
             </ul>
           </div>
 
-           <div>
+           <div className="mt-3 md:mt-2 lg:mt-0">
             <ul className="space-y-2">
                 <p className="text-red-500 mb-4 text-xl">DEVELOPERS
                 </p>
@@ -87,6 +87,8 @@ const Footer = () => {
                 <li><a href="#" className="text-xl relative inline-block group hover:text-red-500">Open Source <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span></a></li>
             </ul>
           </div>
+
+
 
         </div>
         <hr className="border-b border-gray-300 mt-32" />
