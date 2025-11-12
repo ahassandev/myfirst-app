@@ -11,8 +11,8 @@ const Blog = () => {
           My Blog
         </h1>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16'>
-             <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-16 place-items-center'>
+             <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-right" data-aos-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
@@ -33,7 +33,7 @@ const Blog = () => {
           </div>
 
 
-           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-up" data-aos-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
@@ -55,7 +55,7 @@ const Blog = () => {
 
 
 
-           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
+           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer" data-aos = "fade-left" data-aos-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"

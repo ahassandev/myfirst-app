@@ -3,13 +3,13 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div>
-      <section data-aos="fade-right" data-aos-delay="500" className="container px-16 mx-auto pb-24">
-        <p className="text-red-600 text-center">WHAT CLIENTS SAY</p>
-        <h1 className="text-7xl font-bold text-gray-800 my-3 text-center">
+      <section className="container px-16 mx-auto pb-24">
+        <p className="text-red-600 text-center" data-aos="down" data-aos-delay="400">WHAT CLIENTS SAY</p>
+        <h1 className="text-7xl font-bold text-gray-800 my-3 text-center" data-aos="fade-down" data-aos-delay="400">
           Testimonial
         </h1>
 
-       <div className="flex justify-between mt-14">
+       <div className="flex justify-between mt-14" data-aos="fade-right" data-aos-delay="400">
           <div className="max-w-sm bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden group cursor-pointer">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
@@ -29,15 +29,8 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-              
-    <button id="prev" class="absolute left-3 top-1/2 -translate-y-1/2 bg-white/90 p-2 rounded-full shadow">
-      ‹
-    </button>
-    <button id="next" class="absolute right-3 top-1/2 -translate-y-1/2 bg-white/90 p-2 rounded-full shadow">
-      ›
-    </button>
 
-          <div className=" bg-gray-200 max-w-2xl p-10 rounded-2xl mt-28 shadow-[0_0_20px_rgba(0,0,0,0.3)] ">
+          <div className=" bg-gray-200 max-w-2xl p-10 rounded-2xl mt-28 shadow-[0_0_20px_rgba(0,0,0,0.3)]" data-aos="fade-down" data-aos-delay="400">
             <div className="relative z-10">
               <div>
                 <h2 className="text-2xl font-semibold">Web App Development</h2>

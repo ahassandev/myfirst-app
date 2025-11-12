@@ -12,8 +12,8 @@ const Contact = () => {
           Contact With Me
         </h1>
 
-        <div className="mt-10 flex justify-center gap-8">
-          <div className="max-w-md bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden ">
+        <div className="mt-10  justify-center gap-8 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+          <div className="max-w-md bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden" data-aos = "fade-down" data-aos-delay = "400">
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
@@ -72,7 +72,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <form className="max-w-2xl mx-auto p-10 bg-gray-200 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden">
+          <form className="max-w-2xl mx-auto p-10 bg-gray-200 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden" data-aos = "fade-down" data-aos-delay = "400">
             <div className="flex justify-between gap-3">
               <div>
                 <label
