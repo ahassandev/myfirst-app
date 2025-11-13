@@ -1,14 +1,17 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import Features from "./components/Features";
-import Portfolio from "./components/Portfolio";
-import Testimonial from "./components/Testimonial";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
+import Features from "./components/FeaturesSection";
+import Portfolio from "./components/PortfolioSection";
+import Skills from "./components/Skills";
+import Testimonial from "./components/TestimonialSection";
+import Blog from "./components/BlogSection";
+import Contact from "./components/ContactSection";
 import Footer from "./components/Footer";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Routes, Route } from "react-router-dom";
+import MainPage from "./components/MainPage";
 
 
 function App() {
@@ -25,12 +28,14 @@ function App() {
   return (
     <div>
       <Navbar />
-      <HeroSection />
-      <Features />
-      <Portfolio />
-      <Testimonial />
-      <Blog />
-      <Contact />
+      <Routes>
+        <Route path = "/" element = {<MainPage/>} />
+        <Route path = "/Features" element = {<Features/>} />
+        <Route path = "/Portfolio" element = {<Portfolio/>} />
+        <Route path = "/Testimonial" element = {<Testimonial/>} />
+        <Route path = "/Blog" element = {<Blog/>} />
+        <Route path = "/Contact" element = {<Contact/>} />
+      </Routes>
       <Footer />
     </div>
   );

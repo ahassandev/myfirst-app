@@ -16,7 +16,7 @@ const Blog = () => {
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
-                className="w-80 h-auto object-cover rounded-2xl transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer" 
+                className="w-80 h-auto object-cover p-3 md:p-0 lg:p-0  rounded-3xl transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer" 
                 alt=""
               />
 
@@ -37,7 +37,7 @@ const Blog = () => {
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
-                className="w-80 h-auto object-cover rounded-2xl transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer" 
+                className="w-80 h-auto object-cover rounded-3xl p-3 md:p-0 lg:p-0 transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer" 
                 alt=""
               />
 
@@ -59,7 +59,7 @@ const Blog = () => {
             <div className="flex flex-col justify-center items-center pt-7">
               <img
                 src="portfolio-image.jpg"
-                className="w-80 h-auto object-cover rounded-2xl transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer" 
+                className="w-80 h-auto object-cover p-3 md:p-0 lg:p-0 rounded-3xl transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer" 
                 alt=""
               />
 

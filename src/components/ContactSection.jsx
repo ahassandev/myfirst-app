@@ -6,19 +6,19 @@ import { FaWhatsapp } from "react-icons/fa";
 const Contact = () => {
   return (
     <div>
-      <section className="mx-auto container py-16 px-16">
+      <section className="mx-auto container py-16 px-5 md:px-16 lg:px-16">
         <p className="text-red-600 font-semibold text-center">CONTACT</p>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 my-3 text-center">
           Contact With Me
         </h1>
 
-<div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-10 items-start px-4 lg:px-0">
+<div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-0 md:gap-10 lg:gap-10 items-start lg:px-0">
   <div className="col-span-1 bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden w-full">
     <div className="flex flex-col justify-center items-center pt-7">
       <img
         src="portfolio-image.jpg"
         className="w-80 h-auto object-cover rounded-2xl transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer"
-        alt=""
+        alt=""  
       />
     </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
   </div>
 
   
-  <form className="col-span-2 w-full p-8 bg-gray-200 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl">
+  <form className="col-span-2 w-full p-8 bg-gray-200 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl mt-8 md:mt-0 lg:mt-0">
     <div className="flex flex-col md:flex-row justify-between gap-5">
       <div className="w-full">
         <label className="block mb-3 text-sm font-medium text-gray-900">YOUR NAME</label>
