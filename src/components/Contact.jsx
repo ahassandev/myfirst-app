@@ -13,12 +13,11 @@ const Contact = () => {
         </h1>
 
 <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-10 items-start px-4 lg:px-0">
-  {/* LEFT CARD (Profile Info) */}
   <div className="col-span-1 bg-white shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl overflow-hidden w-full">
     <div className="flex flex-col justify-center items-center pt-7">
       <img
         src="portfolio-image.jpg"
-        className="w-full h-auto object-cover rounded-2xl transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer"
+        className="w-80 h-auto object-cover rounded-2xl transition-transform duration-300 ease-in-out group-hover:scale-105 cursor-pointer"
         alt=""
       />
     </div>
@@ -61,7 +60,7 @@ const Contact = () => {
     </div>
   </div>
 
-  {/* RIGHT FORM */}
+  
   <form className="col-span-2 w-full p-8 bg-gray-200 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl">
     <div className="flex flex-col md:flex-row justify-between gap-5">
       <div className="w-full">

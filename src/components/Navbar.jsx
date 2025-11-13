@@ -31,7 +31,7 @@ function Navbar() {
       </ul>
 
   
-      <button className="hidden lg:block text-pink-500 text-sm font-semibold py-3 px-5 shadow-lg rounded-md bg-100 hover:bg-gradient-to-br hover:from-blue-400 hover:to-pink-500 hover:text-white transition-all duration-300">
+      <button className="hidden lg:block text-pink-500 text-sm font-semibold py-3 px-5 shadow-lg rounded-md bg-100 hover:bg-gradient-to-br hover:from-blue-400 hover:to-pink-500 cursor-pointer hover:text-white hover:-translate-y-1 transition-all duration-300">
         BUY NOW
       </button>
 
@@ -47,7 +47,7 @@ function Navbar() {
           <a className="hover:text-pink-600" href="#">Testimonial</a>
           <a className="hover:text-pink-600" href="#">Contact</a>
 
-          <button className="text-pink-500 text-sm font-semibold py-3 px-5 shadow-lg rounded-md bg-100 hover:bg-gradient-to-br hover:from-blue-400 hover:to-pink-500 hover:text-white transition-all duration-300">
+          <button className="text-pink-500 text-sm font-semibold py-3 px-5 shadow-lg rounded-md bg-100 hover:bg-gradient-to-br hover:from-blue-400 hover:to-pink-500 cursor-pointer hover:text-white hover:-translate-y-1 transition-all duration-300">
             BUY NOW
           </button>
         </div>
