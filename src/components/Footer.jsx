@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-3 md:mt-0 lg:mt-0 ml-5">
+          <div className="mt-3 md:mt-0 lg:mt-0 sm:ml-0 md:ml-0 lg:ml-12">
             <ul className="space-y-2">
                 <p className="text-red-500 mb-4 text-xl">QUICK LINK</p>
                 <li><a href="#" className="text-xl relative inline-block group hover:text-red-500">About <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span></a></li>
