@@ -6,7 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <section className="container mx-auto p-16">
+      <section className="container mx-auto px-16 py-8">
         <div className="py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div>
             <div className="flex items-center gap-3 mt-4">
