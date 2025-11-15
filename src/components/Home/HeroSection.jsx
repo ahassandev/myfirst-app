@@ -15,7 +15,7 @@ const HeroSection = () => {
 
 
         <div className='flex gap-10 mt-10'>
-        <a href="" className='text-3xl p-4 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl hover:bg-linear-to-br hover:from-blue-400 hover:to-pink-500 hover:text-white hover:-translate-y-1 transition-all duration-300'><FaWhatsapp/></a>
+        <a href="https://web.whatsapp.com/" className='text-3xl p-4 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl hover:bg-linear-to-br hover:from-blue-400 hover:to-pink-500 hover:text-white hover:-translate-y-1 transition-all duration-300'><FaWhatsapp/></a>
         <a href="" className='text-3xl p-4 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl hover:bg-linear-to-br hover:from-blue-400 hover:to-pink-500 hover:text-white hover:-translate-y-1 transition-all duration-300'><FiLinkedin/></a>
         <a href="" className='text-3xl p-4 shadow-[0_0_20px_rgba(0,0,0,0.3)] rounded-2xl hover:bg-linear-to-br hover:from-blue-400 hover:to-pink-500 hover:text-white hover:-translate-y-1 transition-all duration-300'><FiGithub/></a>
         </div>
@@ -23,7 +23,7 @@ const HeroSection = () => {
 
         </div>
         <div>
-          <img src="banner-01.png" className='w-[500px] m-auto pt-12' alt=""/>
+          <img src="my-image.png" className='w-[600px] m-auto pt-12' alt=""/>
         </div>
         </div>
 
