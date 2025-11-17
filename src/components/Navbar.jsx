@@ -20,7 +20,7 @@
               className="absolute inset-0 rounded-full border-2 border-gray-300 scale-[1.15] transition-all duration-300 hover:border-pink-500"
             ></span>
           </div>
-          <h1 className="text-xl font-bold">Ahmad Hassan</h1>
+         <a href="/"> <h1 className="text-xl font-bold">Ahmad Hassan</h1></a>
         </div>
 
         <ul className="hidden lg:flex gap-10">

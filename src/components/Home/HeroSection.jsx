@@ -1,4 +1,6 @@
 import React from 'react'
+import Typed from 'react-typed';
+
 
 import { FiFacebook, FiGithub, FiLinkedin }from "react-icons/fi"
 import { FaWhatsapp }from "react-icons/fa"
