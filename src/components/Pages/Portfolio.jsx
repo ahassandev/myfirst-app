@@ -1,11 +1,15 @@
 import React from 'react'
 import PortfolioSection from '../Home/PortfolioSection'
-import Featuretop from '../Features/Featuretop'
 
 const Portfolio = () => {
   return (
     <div>
-      <Featuretop/>
+       <section className="bg-cover bg-center h-[400px]" style={{ backgroundImage: "url('portfolio-img.jpg')" }}>
+        <div className='flex flex-col justify-center items-center h-96'>
+            <h2 className='text-4xl font-bold text-red-600 mb-1'>Portfolio</h2>
+            <p className='text-lg'>Home / Portfolio</p>
+        </div>
+      </section>
       <PortfolioSection/>
     </div>
   )
