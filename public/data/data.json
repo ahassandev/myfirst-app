@@ -1,0 +1,41 @@
+{
+    "navbar": {
+        "image": "my-image.png",
+        "name":  "Ahmad Hassan",
+        "links": [
+            {
+                "name": "Home",
+                "path": "/"
+            },
+
+            {
+                "name": "Features",
+                 "path": "/Features"
+            },
+
+            {
+                "name": "Portfolio",
+                 "path": "/Portfolio"
+            },
+
+            {
+                "name": "Testimonial",
+                 "path": "/Testimonial"
+            },
+
+
+            {
+                "name": "Contact",
+                 "path": "/Contact"
+            }
+        ],
+
+        "button": {
+            "label": "BUY NOW",
+            "color": "pink",
+            "path":  "/buy"
+        }
+        
+    }
+    
+}

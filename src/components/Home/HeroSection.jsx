@@ -1,5 +1,6 @@
 import React from 'react'
-import Typed from 'react-typed';
+import { ReactTyped } from "react-typed";
+
 
 
 import { FiFacebook, FiGithub, FiLinkedin }from "react-icons/fi"
@@ -12,7 +13,16 @@ const HeroSection = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
       <div className='container px-10 m-auto mt-32  '>
         <p className='text-2xl text-gray-600'>WELCOME TO MY WORLD</p>
-        <h1 className='text-3xl md:text-3xl lg:text-5xl mt-3 font-bold sm:leading-10 md:leading-10 lg:leading-14'>HI, I'm <span className='text-red-600'>Ahmad Hassan</span> <br/>a Web Developer</h1> 
+        <h1 className='text-3xl md:text-3xl lg:text-5xl mt-3 font-bold sm:leading-10 md:leading-10 lg:leading-14'>HI, I'm <span className='text-red-600'>Ahmad Hassan</span> <br/>
+        
+        <ReactTyped
+        strings = {['a Web Developer', 'a Frontend Designer', 'a Freelancer']}
+        typeSpeed={60}
+        backspeed={10}
+        loop
+        />
+        
+        </h1> 
         <p className='mt-10 text-gray-500 leading-relaxed text-lg'>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that</p>
 
 
