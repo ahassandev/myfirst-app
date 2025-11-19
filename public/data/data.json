@@ -1,228 +1,174 @@
 {
     "navbar": {
         "image": "my-image.png",
-        "name":  "Ahmad Hassan",
+        "name": "Ahmad Hassan",
         "links": [
             {
-                "name": "Home"            
+                "name": "Home"
             },
-
             {
                 "name": "Features"
-                 
             },
-
             {
                 "name": "Portfolio"
-                
             },
-
             {
                 "name": "Testimonial"
-                 
             },
-
-
             {
                 "name": "Contact"
-                
             }
         ],
-
         "button": {
             "label": "BUY NOW"
-        } 
+        }
     },
-
     "hero": {
-            "greetings" : "WELCOME TO MY WORLD",
-            "name": [
-                {
-                    "first": "HI, I'm"
-                },
-                {
-                    "second": "Ahmad Hassan"
-                }
-            ],
-
-            "typed": [
-                "a Web Developer",
-                "a Frontend Designer",
-                "a Freelancer"
-            ],
-
-           "description": 
-            "I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that",
-
-            "myimage": "/my-image.png"
+        "greetings": "WELCOME TO MY WORLD",
+        "name": [
+            {
+                "first": "HI, I'm"
+            },
+            {
+                "second": "Ahmad Hassan"
+            }
+        ],
+        "typed": [
+            "a Web Developer",
+            "a Frontend Designer",
+            "a Freelancer"
+        ],
+        "description": "I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that",
+        "myimage": "/my-image.png"
     },
-
-
     "features": {
         "caption": "FEATURES",
-        "heading":  "What I Do",
+        "heading": "What I Do",
         "card": [
             {
                 "title": "Business Strategy",
                 "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
             },
-
-             {
+            {
                 "title": "Business Strategy",
                 "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
             },
-
-             {
+            {
                 "title": "Business Strategy",
                 "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
             },
-
-             {
+            {
                 "title": "Business Strategy",
                 "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
             },
-
-
-             {
+            {
                 "title": "Business Strategy",
                 "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
             },
-
-
-             {
+            {
                 "title": "Business Strategy",
                 "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
             }
         ]
-
-
     },
-
-    "portfolio":{
+    "portfolio": {
         "text": "Visit my portfolio and keep your feedback",
         "heading": "My Portfolio",
-        "card":[
+        "card": [
             {
                 "image": "/portfolio-image.jpg",
-                "text":   "GALLERY",
-                "date":    "1883",
-                "title":   "NFT Dashboard Application Development."
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
             },
-
-           {
-                "image": "/portfolio-image.jpg",
-                "text":   "GALLERY",
-                "date":    "1883",
-                "title":   "NFT Dashboard Application Development."
-            },
-
             {
                 "image": "/portfolio-image.jpg",
-                "text":   "GALLERY",
-                "date":    "1883",
-                "title":   "NFT Dashboard Application Development."
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
             },
-
-
             {
                 "image": "/portfolio-image.jpg",
-                "text":   "GALLERY",
-                "date":    "1883",
-                "title":   "NFT Dashboard Application Development."
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
             },
-
-
-
             {
                 "image": "/portfolio-image.jpg",
-                "text":   "GALLERY",
-                "date":    "1883",
-                "title":   "NFT Dashboard Application Development."
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
             },
-
-
-
             {
                 "image": "/portfolio-image.jpg",
-                "text":   "GALLERY",
-                "date":    "1883",
-                "title":   "NFT Dashboard Application Development."
-            }   
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            }
         ]
     },
-
-    "skills":{
+    "skills": {
         "heading": "Development Skills",
-
         "progress": [
             {
                 "titel": "HTML",
                 "percent": "90%"
             },
-
-             {
+            {
                 "titel": "CSS",
                 "percent": "100%"
             },
-
-
-             {
+            {
                 "titel": "TAILWIND CSS",
                 "percent": "80%"
             },
-
-             {
+            {
                 "titel": "JAVASCRIPT",
                 "percent": "60%"
             },
-
-             {
-                "titel": "REACT.JS",
-                "percent": "50%"
-            },
-
             {
                 "titel": "REACT.JS",
                 "percent": "50%"
             },
-
-
             {
                 "titel": "REACT.JS",
                 "percent": "50%"
             },
-
-
             {
                 "titel": "REACT.JS",
                 "percent": "50%"
             },
-
-
             {
                 "titel": "REACT.JS",
                 "percent": "50%"
             },
-
+            {
+                "titel": "REACT.JS",
+                "percent": "50%"
+            },
             {
                 "titel": "REACT.JS",
                 "percent": "50%"
             }
         ]
     },
-
     "Testimonial": {
         "text": "WHAT CLIENTS SAY",
         "heading": "Testimonial",
-        "card":[
+        "card": [
             {
                 "image": "/portfolio-image.jpg",
-                "text": "GALLERY",  
+                "text": "GALLERY",
                 "date": "1883",
                 "title": "NFT Dashboard Application Development."
             }
         ],
-
         "cardright": [
             {
                 "title": "Web App Development",
@@ -231,32 +177,171 @@
             }
         ]
     },
-
     "blog": {
-            "text": "VISIT MY BLOG AND KEEP YOUR FEEDBACK",
-            "heading": "My Blog",
-            "cardblog": [
-                {
-                    "image": "/portfolio-image.jpg",
-                    "text":  "GALLERY",
-                    "date": "1883",
-                    "title": "Dashboard Application Development."
-                },
+        "text": "VISIT MY BLOG AND KEEP YOUR FEEDBACK",
+        "heading": "My Blog",
+        "cardblog": [
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "Dashboard Application Development."
+            }
+        ]
+    },
+    "contact": {
+        "text": "CONTACT",
+        "heading": "Contact With Me",
+        "contactcard": [
+            {
+                "image": "/portfolio-image.jpg",
+                "title": "Nevine Acotanza",
+                "subtitle": "Chief Operating Officer",
+                "discription": "I am available for freelance work. Connect with me via and call in to my account."
+            },
+            {
+                "phonetext": "Phone:"
+            },
+            {
+                "phoneno": "+012 345 678 90"
+            },
+            {
+                "mailtext": "Email:"
+            },
+            {
+                "Email": "admin@example.com"
+            },
+            {
+                "text": "FIND WITH ME"
+            }
+        ],
+        "contactform": [
+            {
+                "name": "YOUR NAME"
+            },
+            {
+                "number": "PHONE NUMBER"
+            },
 
-                {
-                    "image": "/portfolio-image.jpg",
-                    "text":  "GALLERY",
-                    "date": "1883",
-                    "title": "Dashboard Application Development."
-                },
+            {
+            "topic": "SUBJECT"
+            },
 
-                {
-                    "image": "/portfolio-image.jpg",
-                    "text":  "GALLERY",
-                    "date": "1883",
-                    "title": "Dashboard Application Development."
-                }
-            ]
+            {
+                "email": "EMAIL"
+            },
+
+            {
+                "msg": "MESSAGE"
+            },
+
+            {
+                "button": "SEND MESSAGE"
+            }
+        ]
+    },
+
+    "footer": {
+        "mylogo": "/myimage.png",
+         "name": "Ahmad Hassan",
+         
+         "footerlinks": [
+            {
+                "title": "QUICK LINK"
+            },
+
+            {
+                "name": "Features"
+            },
+
+            {
+                "name":  "Portfolio"
+            },
+
+            {
+               "name": "Testimonial"
+            },
+
+            {
+                "name":    "Blog"   
+            },
+            {
+                "name": "Contact"
+            }
+         ],
+
+         "resourcelinks": [
+            {
+                "name": "Authentication"
+            },
+
+            {
+                "name": "System Status"
+            },
+
+
+            {
+                "name": "Terms of Service"
+            },
+
+
+            {
+                "name": "Pricing"
+            },
+
+
+            {
+                "name": "Over Right"
+            }
+         ],
+
+
+         "developerlinks": [
+            {
+                "name": "Documentation"
+            },
+
+            {
+                "name": "Authentication"
+            },
+
+
+            {
+                "name": "API Reference"
+            },
+
+
+            {
+                "name": "Support"
+            },
+
+
+            {
+                "name": "Open Source"
+            }
+         ],
+
+         "copyright": [
+            {
+                "text": "All rights reserved by"
+            },
+            {
+                "name": "Ahmad Hassan"
+            }
+         ]
+
+         
     }
-     
 }
