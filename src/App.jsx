@@ -9,7 +9,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Routes, Route } from "react-router-dom";
-
+import { SiteDataProvider } from "./context/SiteDataContext";
 
 function App() {
   useEffect(() => {
@@ -24,15 +24,17 @@ function App() {
 
   return (
     <div>
-      <Navbar />
-      <Routes>
-        <Route path = "/" element = {<Home/>} />
-         <Route path = "/Features" element = {<Features/>} />
-         <Route path = "/Portfolio" element = {<Portfolio/>} />
-         <Route path = "/Testimonial" element = {<Testimonial/>} />
-        <Route path = "/Contact" element = {<Contact/>} />
-      </Routes>
-      <Footer />
+      <SiteDataProvider>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Features" element={<Features />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Testimonial" element={<Testimonial />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </SiteDataProvider>
     </div>
   );
 }

@@ -4,38 +4,259 @@
         "name":  "Ahmad Hassan",
         "links": [
             {
-                "name": "Home",
-                "path": "/"
+                "name": "Home"            
             },
 
             {
-                "name": "Features",
-                 "path": "/Features"
+                "name": "Features"
+                 
             },
 
             {
-                "name": "Portfolio",
-                 "path": "/Portfolio"
+                "name": "Portfolio"
+                
             },
 
             {
-                "name": "Testimonial",
-                 "path": "/Testimonial"
+                "name": "Testimonial"
+                 
             },
 
 
             {
-                "name": "Contact",
-                 "path": "/Contact"
+                "name": "Contact"
+                
             }
         ],
 
         "button": {
-            "label": "BUY NOW",
-            "color": "pink",
-            "path":  "/buy"
-        }
-        
+            "label": "BUY NOW"
+        } 
+    },
+
+    "hero": {
+            "greetings" : "WELCOME TO MY WORLD",
+            "name": [
+                {
+                    "first": "HI, I'm"
+                },
+                {
+                    "second": "Ahmad Hassan"
+                }
+            ],
+
+            "typed": [
+                "a Web Developer",
+                "a Frontend Designer",
+                "a Freelancer"
+            ],
+
+           "description": 
+            "I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that",
+
+            "myimage": "/my-image.png"
+    },
+
+
+    "features": {
+        "caption": "FEATURES",
+        "heading":  "What I Do",
+        "card": [
+            {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+
+             {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+
+             {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+
+             {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+
+
+             {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+
+
+             {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            }
+        ]
+
+
+    },
+
+    "portfolio":{
+        "text": "Visit my portfolio and keep your feedback",
+        "heading": "My Portfolio",
+        "card":[
+            {
+                "image": "/portfolio-image.jpg",
+                "text":   "GALLERY",
+                "date":    "1883",
+                "title":   "NFT Dashboard Application Development."
+            },
+
+           {
+                "image": "/portfolio-image.jpg",
+                "text":   "GALLERY",
+                "date":    "1883",
+                "title":   "NFT Dashboard Application Development."
+            },
+
+            {
+                "image": "/portfolio-image.jpg",
+                "text":   "GALLERY",
+                "date":    "1883",
+                "title":   "NFT Dashboard Application Development."
+            },
+
+
+            {
+                "image": "/portfolio-image.jpg",
+                "text":   "GALLERY",
+                "date":    "1883",
+                "title":   "NFT Dashboard Application Development."
+            },
+
+
+
+            {
+                "image": "/portfolio-image.jpg",
+                "text":   "GALLERY",
+                "date":    "1883",
+                "title":   "NFT Dashboard Application Development."
+            },
+
+
+
+            {
+                "image": "/portfolio-image.jpg",
+                "text":   "GALLERY",
+                "date":    "1883",
+                "title":   "NFT Dashboard Application Development."
+            }   
+        ]
+    },
+
+    "skills":{
+        "heading": "Development Skills",
+
+        "progress": [
+            {
+                "titel": "HTML",
+                "percent": "90%"
+            },
+
+             {
+                "titel": "CSS",
+                "percent": "100%"
+            },
+
+
+             {
+                "titel": "TAILWIND CSS",
+                "percent": "80%"
+            },
+
+             {
+                "titel": "JAVASCRIPT",
+                "percent": "60%"
+            },
+
+             {
+                "titel": "REACT.JS",
+                "percent": "50%"
+            },
+
+            {
+                "titel": "REACT.JS",
+                "percent": "50%"
+            },
+
+
+            {
+                "titel": "REACT.JS",
+                "percent": "50%"
+            },
+
+
+            {
+                "titel": "REACT.JS",
+                "percent": "50%"
+            },
+
+
+            {
+                "titel": "REACT.JS",
+                "percent": "50%"
+            },
+
+            {
+                "titel": "REACT.JS",
+                "percent": "50%"
+            }
+        ]
+    },
+
+    "Testimonial": {
+        "text": "WHAT CLIENTS SAY",
+        "heading": "Testimonial",
+        "card":[
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",  
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            }
+        ],
+
+        "cardright": [
+            {
+                "title": "Web App Development",
+                "subtitle": "Upwork - Mar 4, 2016 - Aug 30, 2021",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nostrum dolores necessitatibus accusamus eaque exercitationem harum suscipit blanditiis accusantium rem! Recusandae necessitatibus quisquam officia nulla quibusdam? Doloremque obcaecati officiis eum."
+            }
+        ]
+    },
+
+    "blog": {
+            "text": "VISIT MY BLOG AND KEEP YOUR FEEDBACK",
+            "heading": "My Blog",
+            "cardblog": [
+                {
+                    "image": "/portfolio-image.jpg",
+                    "text":  "GALLERY",
+                    "date": "1883",
+                    "title": "Dashboard Application Development."
+                },
+
+                {
+                    "image": "/portfolio-image.jpg",
+                    "text":  "GALLERY",
+                    "date": "1883",
+                    "title": "Dashboard Application Development."
+                },
+
+                {
+                    "image": "/portfolio-image.jpg",
+                    "text":  "GALLERY",
+                    "date": "1883",
+                    "title": "Dashboard Application Development."
+                }
+            ]
     }
-    
+     
 }
