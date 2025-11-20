@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioCard from "../Features/PortfolioCard";
+import PortfolioCard from "../PortfolioCard";
 
 const Testimonial = ({ testimonials }) => {
   if (!testimonials || testimonials.length === 0) return null;

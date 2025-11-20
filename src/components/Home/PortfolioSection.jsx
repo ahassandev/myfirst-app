@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioCard from "../Features/PortfolioCard";
+import PortfolioCard from "../PortfolioCard";
 
 const PortfolioSection = ({ portfolio }) => {
   if (!portfolio || !portfolio.projects || portfolio.projects.length === 0)
