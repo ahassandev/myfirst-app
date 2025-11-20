@@ -1,0 +1,162 @@
+{
+    "features": {
+        "title": "FEATURES",
+        "heading": "What I Do",
+        "services": [
+            {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+            {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+            {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+            {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+            {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            },
+            {
+                "title": "Business Strategy",
+                "description": "I throw myself down among the tall grass by the stream as I lie close to the earth."
+            }
+        ]
+    },
+    "portfolio": {
+        "title": "Visit my portfolio and keep your feedback",
+        "heading": "My Portfolio",
+        "projects": [
+            {
+                "image": "/portfolio-image.jpg",
+                "tag": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "tag": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "tag": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "tag": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "tag": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "tag": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            }
+        ]
+    },
+    "skill": {
+        "heading": "Development Skills",
+        "skills": [
+            {
+                "skill": "HTML",
+                "percent": "90%"
+            },
+            {
+                "skill": "CSS",
+                "percent": "100%"
+            },
+            {
+                "skill": "TAILWIND CSS",
+                "percent": "80%"
+            },
+            {
+                "skill": "JAVASCRIPT",
+                "percent": "60%"
+            },
+            {
+                "skill": "REACT.JS",
+                "percent": "50%"
+            },
+            {
+                "skill": "REACT.JS",
+                "percent": "50%"
+            },
+            {
+                "skill": "REACT.JS",
+                "percent": "50%"
+            },
+            {
+                "skill": "REACT.JS",
+                "percent": "50%"
+            },
+            {
+                "skill": "REACT.JS",
+                "percent": "50%"
+            },
+            {
+                "skill": "REACT.JS",
+                "percent": "50%"
+            }
+        ]
+    },
+    "testimonial": {
+        "title": "WHAT CLIENTS SAY",
+        "heading": "Testimonial",
+        "cardLeft": [
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "NFT Dashboard Application Development."
+            }
+        ],
+        "cardRight": [
+            {
+                "title": "Web App Development",
+                "subtitle": "Upwork - Mar 4, 2016 - Aug 30, 2021",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nostrum dolores necessitatibus accusamus eaque exercitationem harum suscipit blanditiis accusantium rem! Recusandae necessitatibus quisquam officia nulla quibusdam? Doloremque obcaecati officiis eum."
+            }
+        ]
+    },
+    "blog": {
+        "text": "VISIT MY BLOG AND KEEP YOUR FEEDBACK",
+        "heading": "My Blog",
+        "blogs": [
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "Dashboard Application Development."
+            },
+            {
+                "image": "/portfolio-image.jpg",
+                "text": "GALLERY",
+                "date": "1883",
+                "title": "Dashboard Application Development."
+            }
+        ]
+    }
+}

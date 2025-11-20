@@ -1,6 +1,8 @@
 import React from "react";
+import FeatureCard from "../Features/FeatureCard";
 
-const skill = () => {
+const skill = ({ skills }) => {
+  if (!skills || skills.length === 0) return null;
   return (
     <div>
       <section className="container px-16 mx-auto pb-10">

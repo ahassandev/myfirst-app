@@ -234,114 +234,84 @@
             {
                 "number": "PHONE NUMBER"
             },
-
             {
-            "topic": "SUBJECT"
+                "topic": "SUBJECT"
             },
-
             {
                 "email": "EMAIL"
             },
-
             {
                 "msg": "MESSAGE"
             },
-
             {
                 "button": "SEND MESSAGE"
             }
         ]
     },
-
     "footer": {
         "mylogo": "/myimage.png",
-         "name": "Ahmad Hassan",
-         
-         "footerlinks": [
+        "name": "Ahmad Hassan",
+        "footerlinks": [
             {
                 "title": "QUICK LINK"
             },
-
             {
                 "name": "Features"
             },
-
             {
-                "name":  "Portfolio"
+                "name": "Portfolio"
             },
-
             {
-               "name": "Testimonial"
+                "name": "Testimonial"
             },
-
             {
-                "name":    "Blog"   
+                "name": "Blog"
             },
             {
                 "name": "Contact"
             }
-         ],
-
-         "resourcelinks": [
+        ],
+        "resourcelinks": [
             {
                 "name": "Authentication"
             },
-
             {
                 "name": "System Status"
             },
-
-
             {
                 "name": "Terms of Service"
             },
-
-
             {
                 "name": "Pricing"
             },
-
-
             {
                 "name": "Over Right"
             }
-         ],
-
-
-         "developerlinks": [
+        ],
+        "developerlinks": [
             {
                 "name": "Documentation"
             },
-
             {
                 "name": "Authentication"
             },
-
-
             {
                 "name": "API Reference"
             },
-
-
             {
                 "name": "Support"
             },
-
-
             {
                 "name": "Open Source"
             }
-         ],
-
-         "copyright": [
+        ],
+        "copyright": [
             {
                 "text": "All rights reserved by"
             },
             {
                 "name": "Ahmad Hassan"
             }
-         ]
-
-         
+        ]
     }
 }
