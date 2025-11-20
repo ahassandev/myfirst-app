@@ -18,7 +18,7 @@ function Home() {
       <FeaturesSection features={data.features}/>
       <PortfolioSection portfolio={data.portfolio}/>
       <SkillsSection skills={data.skill}/>
-      <TestimonialSection/>
+      <TestimonialSection testimonials={data.testimonials}/>
       <BlogSection/>
       <ContactSection/>
     </>
