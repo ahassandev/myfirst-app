@@ -11,14 +11,14 @@ const Testimonial = ({ testimonials }) => {
           data-aos="down"
           data-aos-delay="400"
         >
-          WHAT CLIENTS SAY
+         {testimonials.title}
         </p>
         <h1
           className="text-5xl md:text-5xl lg:text-7xl font-bold text-gray-800 my-3 text-center"
           data-aos="fade-down"
           data-aos-delay="400"
         >
-          Testimonial
+         {testimonials.heading}
         </h1>
 
         <div

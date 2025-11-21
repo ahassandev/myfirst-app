@@ -19,7 +19,7 @@ function Home() {
       <PortfolioSection portfolio={data.portfolio}/>
       <SkillsSection skills={data.skill}/>
       <TestimonialSection testimonials={data.testimonials}/>
-      <BlogSection/>
+      <BlogSection blog = {data.blog}/>
       <ContactSection/>
     </>
   )

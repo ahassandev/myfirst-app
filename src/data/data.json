@@ -141,19 +141,19 @@
         "blogs": [
             {
                 "image": "/portfolio-image.jpg",
-                "text": "GALLERY",
+                "tag": "GALLERY",
                 "date": "1883",
                 "title": "Dashboard Application Development."
             },
             {
                 "image": "/portfolio-image.jpg",
-                "text": "GALLERY",
+                "tag": "GALLERY",
                 "date": "1883",
                 "title": "Dashboard Application Development."
             },
             {
                 "image": "/portfolio-image.jpg",
-                "text": "GALLERY",
+                "tag": "GALLERY",
                 "date": "1883",
                 "title": "Dashboard Application Development."
             }
