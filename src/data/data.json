@@ -76,43 +76,43 @@
         "skills": [
             {
                 "skill": "HTML",
-                "percent": "90%"
+                "percent": "90"
             },
             {
                 "skill": "CSS",
-                "percent": "100%"
+                "percent": "100"
             },
             {
                 "skill": "TAILWIND CSS",
-                "percent": "80%"
+                "percent": "80"
             },
             {
                 "skill": "JAVASCRIPT",
-                "percent": "60%"
+                "percent": "60"
             },
             {
                 "skill": "REACT.JS",
-                "percent": "50%"
+                "percent": "50"
             },
             {
                 "skill": "REACT.JS",
-                "percent": "50%"
+                "percent": "50"
             },
             {
                 "skill": "REACT.JS",
-                "percent": "50%"
+                "percent": "50"
             },
             {
                 "skill": "REACT.JS",
-                "percent": "50%"
+                "percent": "50"
             },
             {
                 "skill": "REACT.JS",
-                "percent": "50%"
+                "percent": "50"
             },
             {
                 "skill": "REACT.JS",
-                "percent": "50%"
+                "percent": "50"
             }
         ]
     },

@@ -17,7 +17,7 @@ function Home() {
       <HeroSection/>
       <FeaturesSection features={data.features}/>
       <PortfolioSection portfolio={data.portfolio}/>
-      <SkillsSection skills={data.skill}/>
+      <SkillsSection skill={data.skill}/>
       <TestimonialSection testimonials={data.testimonials}/>
       <BlogSection blog = {data.blog}/>
       <ContactSection/>
