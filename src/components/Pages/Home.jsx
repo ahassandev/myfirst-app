@@ -7,6 +7,7 @@ import TestimonialSection from '../Home/TestimonialSection'
 import BlogSection from '../Home/BlogSection'
 import ContactSection from '../Home/ContactSection'
 import useAppData from "../../hooks/useAppData";
+import Test from '../Test';
 
 function Home() {
    const { data, loading, error } = useAppData();
@@ -21,6 +22,7 @@ function Home() {
       <TestimonialSection testimonials={data.testimonials}/>
       <BlogSection blog = {data.blog}/>
       <ContactSection/>
+      <Test services={data.features.services}/>
     </>
   )
 }
