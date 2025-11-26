@@ -4,7 +4,7 @@ import FeatureCard from './Features/FeatureCard'
 const Test = ({services}) => {
   return (
     <div>
-      {/* <h2 className='text-3xl'>{test.heading}</h2> */}
+      {/* <h2 className='text-3 xl'>{test.heading}</h2> */}
       <FeatureCard services={services}/>
     </div>
   )
