@@ -10,16 +10,17 @@ function Navbar() {
   return (
     <nav
       className={`relative flex justify-between items-center px-6 md:px-16 py-3 sticky top-0 z-50 shadow-md
-        ${theme === "light" ? "bg-white text-black" : "bg-gray-800 text-white"}`}
+        ${
+          theme === "light" ? "bg-white text-black" : "bg-gray-800 text-white"
+        }`}
     >
-      {/* Logo + Name */}
       <div className="flex items-center gap-3 cursor-pointer">
         <div className="relative inline-block">
           <img
             src={myimage}
             className="w-14 h-14 rounded-full object-cover"
             alt=""
-          />  
+          />
           <span className="absolute inset-0 rounded-full border-2 border-gray-300 scale-[1.15] transition-all duration-300 hover:border-pink-500"></span>
         </div>
         <a href="/">
@@ -27,7 +28,6 @@ function Navbar() {
         </a>
       </div>
 
-      {/* Desktop Links */}
       <ul className="hidden lg:flex gap-10">
         <li>
           <Link className="hover:text-pink-600" to="/">
@@ -56,24 +56,27 @@ function Navbar() {
         </li>
       </ul>
 
-      {/* Theme Toggle Button */}
       <button
         onClick={toggleTheme}
-        className="p-2 ml-4 bg-gray-200 dark:bg-gray-700 rounded"
+        className="p-2 ml-4 bg-gray-200 cursor-pointer text-black
+    dark:bg-gray-700 
+    dark:text-white rounded"
       >
         {theme === "light" ? "Dark Mode" : "Light Mode"}
       </button>
 
-      {/* Mobile Hamburger */}
       <div className="lg:hidden z-50" onClick={() => setOpen(!open)}>
         <span className="text-3xl cursor-pointer">&#9776;</span>
       </div>
 
-      {/* Mobile Menu */}
       {open && (
         <div
           className={`absolute top-20 left-0 w-full shadow-lg flex flex-col items-center gap-4 py-5 lg:hidden z-40
-            ${theme === "light" ? "bg-white text-black" : "bg-gray-800 text-white"}`}
+            ${
+              theme === "light"
+                ? "bg-white text-black"
+                : "bg-gray-800 text-white"
+            }`}
         >
           <a className="hover:text-pink-600" to="/">
             Home
